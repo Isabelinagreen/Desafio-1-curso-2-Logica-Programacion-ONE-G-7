@@ -36,3 +36,14 @@ en inder.html
  <button onclick="mostrarAlerta()" class="button">Alert</button>
 
 //6. 
+Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
+en app.js
+function sumaDosNumeros(){
+    let valorUno = parseInt(prompt("Digite el valor uno"));
+    let valorDos = parseInt(prompt("Digite el valor dos"));
+    let resultado = valorUno + valorDos;
+    alert (`La suma de ${valorUno} y ${valorDos} es igual a ${resultado}`);
+}
+en inder.html
+
+  <button onclick="sumaDosNumeros()" class="button">Suma</button>
